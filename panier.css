@@ -1,0 +1,44 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #ff6347;
+    color: white;
+    text-align: center;
+}
+
+table td {
+    color: #333;
+}
+
+tfoot td {
+    font-weight: bold;
+    color: #ff6347;
+    text-align: center;
+}
+.btnV {
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+  }
+.btnV:hover {
+    background-color: #ffd1d1;
+    color: #ff4d4d;
+  }
